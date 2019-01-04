@@ -35,12 +35,5 @@ Note that `rstanarm` is a requirement for `tidyposterior` hence the stack.
 
 ## Future development
 
-<<<<<<< HEAD
 * `rocker-jags` will add [JAGS](http://mcmc-jags.sourceforge.net/) to `rocker-ml`
 * `rocker-bayesian` will add Stan, JAGS and OpenBUGS to `rocker-ml`
-=======
-* `rocker-jags` will add [JAGS](http://mcmc-jags.sourceforge.net/) to `rocker-ml`:
-  - work in progress
-
-* `rocker-bayesian` adds Stan, JAGS and OpenBUGS to `rocker-ml`
->>>>>>> 06cabd7859a593762c742953f331a8da5db0e51d
