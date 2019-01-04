@@ -26,7 +26,8 @@ Hmisc \
 foreach \
 doParallel \
 openxlsx \
-DT
+DT \
+MASS
 
 # Caret and some ML packages
 RUN install2.r -s --error \
@@ -38,14 +39,16 @@ ensembleR \
 MLmetrics \
 pROC \
 # Models
-ranger \
-randomForest \ 
-elasticnet \ 
 e1071 \
-lme4 \
+elasticnet \ 
+fitdistrplus \
 gam \
 gamlss \
-mboost \
 kernlab \
+lme4 \
+mboost \
+randomForest \ 
+ranger \
+survival \
 # graph analysis
 igraph
