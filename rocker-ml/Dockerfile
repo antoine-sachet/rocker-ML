@@ -9,12 +9,16 @@ LABEL maintainer="antoine.sachet@gmail.com"
 # Dev tools: devtools, roxygen2, testthat, Rcpp
 # Misc utilities: jsonlite, stringi, MASS
 
+# Note: Install can be memory hungry. Retry with larger memory if you get
+# g++: internal compiler error: Killed (program cc1plus)
+
 # ggplot2 extensions
 RUN install2.r -s --error \
 scales \
 RColorBrewer \
 viridis \
-GGally
+GGally \
+ggridges
 
 # Misc utilities
 RUN install2.r -s --error \
@@ -26,9 +30,14 @@ DT
 
 # Caret and some ML packages
 RUN install2.r -s --error \
+# ML framework
 caret \
 car \
 ensembleR \
+# metrics
+MLmetrics \
+pROC \
+# Models
 ranger \
 randomForest \ 
 elasticnet \ 
@@ -38,12 +47,12 @@ gam \
 gamlss \
 mboost \
 kernlab \
-pROC \
-MLmetrics
-
-# Graph analysis
-RUN install2.r -s --error igraph
+# graph analysis
+igraph
 
 # The future of ML with R? Work in progress but useful to have.
+# Installs parsnip, rsample, dials, yardstick, tidyposterior, etc
+# cf https://github.com/tidymodels/tidymodels
+# Dependencies include rstan. 
 RUN install2.r -s --error tidymodels
 
