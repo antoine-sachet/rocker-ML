@@ -5,7 +5,7 @@ This repository extends the rocker images to provide machine learning / statisti
 
 ### FROM rocker/verse
 
-The base docker image is rocker/verse:latest which already contains:
+The base docker image is `rocker/verse:latest` which already contains:
 - r-base
 - rstudio
 - tidyverse
@@ -35,7 +35,5 @@ Note that `rstanarm` is a requirement for `tidyposterior` hence the stack.
 
 ## Future development
 
-* `rocker-jags` will add (JAGS)[http://mcmc-jags.sourceforge.net/] to `rocker-ml`:
-  - work in progress
-
-* `rocker-bayesian` adds Stan, JAGS and OpenBUGS to `rocker-ml`
+* `rocker-jags` will add [JAGS](http://mcmc-jags.sourceforge.net/) to `rocker-ml`
+* `rocker-bayesian` will add Stan, JAGS and OpenBUGS to `rocker-ml`
