@@ -1,4 +1,4 @@
-FROM rocker/verse:3.5.0
+FROM rocker/verse:latest
 LABEL maintainer="antoine.sachet@gmail.com" 
 
 ### Non exhaustive list of packages already installed in rocker/verse:
@@ -18,8 +18,7 @@ GGally
 
 # Misc utilities
 RUN install2.r -s --error \
---deps TRUE \
-HMisc \
+Hmisc \
 foreach \
 doParallel \
 openxlsx \
@@ -34,6 +33,7 @@ ranger \
 randomForest \ 
 elasticnet \ 
 e1071 \
+lme4 \
 gam \
 gamlss \
 mboost \
