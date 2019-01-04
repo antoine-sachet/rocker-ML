@@ -49,10 +49,3 @@ mboost \
 kernlab \
 # graph analysis
 igraph
-
-# The future of ML with R? Work in progress but useful to have.
-# Installs parsnip, rsample, dials, yardstick, tidyposterior, etc
-# cf https://github.com/tidymodels/tidymodels
-# Dependencies include rstan. 
-RUN install2.r -s --error tidymodels
-
