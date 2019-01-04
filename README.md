@@ -14,7 +14,7 @@ The base docker image is rocker/verse:latest which already contains:
 
 ### rocker-ml 
 
-The rocker-ml image adds to rocker/verse:
+The [rocker-ml image](https://hub.docker.com/r/asachet/rocker-ml) adds to rocker/verse:
   - `ggplot2` utilities such as `scales`, `ggridges`, `GGally`, `RColorBrewer`, `Viridis`
   - Misc tools such as `foreach`, `Hmisc`, `doParallel`, `openxlsx`
   - Modelling tools:
@@ -25,12 +25,12 @@ The rocker-ml image adds to rocker/verse:
 
 ### rocker-stan
 
-The rocker-stan image adds [Stan](https://mc-stan.org/) to `rocker-ml`:
+The [rocker-stan image](https://hub.docker.com/r/asachet/rocker-stan) adds [Stan](https://mc-stan.org/) to `rocker-ml`:
   - `rstan`, `rstantools`, `rstanarm`, `shinystan`, `bayesplot`, `brms`, `tidybayes`
 
 ### rocker-tidymodels
 
-The rocker-tidymodels image adds [`tidymodels`](https://github.com/tidymodels/tidymodels) to `rocker-stan`. 
+The [rocker-tidymodels image](https://hub.docker.com/r/asachet/rocker-tidymodels) adds [`tidymodels`](https://github.com/tidymodels/tidymodels) to `rocker-stan`. 
 Note that `rstanarm` is a requirement for `tidyposterior` hence the stack.
 
 ## Future development
