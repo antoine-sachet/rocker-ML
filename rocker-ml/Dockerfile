@@ -46,6 +46,7 @@ gam \
 gamlss \
 kernlab \
 lme4 \
+lmer \
 mboost \
 randomForest \ 
 ranger \
