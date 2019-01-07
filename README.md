@@ -39,7 +39,12 @@ The [rocker-stan image](https://hub.docker.com/r/asachet/rocker-stan) adds [Stan
 The [rocker-tidymodels image](https://hub.docker.com/r/asachet/rocker-tidymodels) adds [`tidymodels`](https://github.com/tidymodels/tidymodels) to `rocker-stan`. 
 Note that `rstanarm` is a requirement for `tidyposterior` hence the stack.
 
-## Future development
+### rocker-keras
 
-* `rocker-jags` will add [JAGS](http://mcmc-jags.sourceforge.net/) to `rocker-ml`
-* `rocker-bayesian` will add Stan, JAGS and OpenBUGS to `rocker-ml`
+[![](https://images.microbadger.com/badges/version/asachet/rocker-keras.svg)](https://microbadger.com/images/asachet/rocker-keras "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/asachet/rocker-keras.svg)](https://microbadger.com/images/asachet/rocker-keras "Get your own image badge on microbadger.com")
+
+The [rocker-keras image](https://hub.docker.com/r/asachet/rocker-keras) adds to `rocker/tidymodels`:
+- TensorFlow (latest **CPU** version) and Keras (latest version)
+- R packages `tensorflow`, `keras` and `tfestimators`
+ 
+ See https://tensorflow.rstudio.com/keras/ for more info.
