@@ -16,6 +16,8 @@ RUN ["r", "install_stan.R"]
 RUN install2.r -s --error \
 bayesplot \
 brms \
+loo \
+projpred \
 rstanarm \
 rstantools \ 
 shinystan \
