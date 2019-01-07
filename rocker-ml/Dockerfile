@@ -39,11 +39,13 @@ ensembleR \
 MLmetrics \
 pROC \
 # Models
+arm \
 e1071 \
 elasticnet \ 
 fitdistrplus \
 gam \
 gamlss \
+glmnet \
 kernlab \
 lme4 \
 lmer \
