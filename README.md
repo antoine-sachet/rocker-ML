@@ -5,7 +5,7 @@ This repository extends the rocker images to provide machine learning / statisti
 
 ### FROM rocker/verse
 
-The base docker image is `rocker/verse:latest` which already contains:
+All these docker images are based on `rocker/verse:latest` [![](https://images.microbadger.com/badges/image/rocker/verse.svg)](https://microbadger.com/images/rocker/verse "Get your own image badge on microbadger.com") which already contains:
 - r-base
 - rstudio
 - tidyverse
@@ -13,6 +13,8 @@ The base docker image is `rocker/verse:latest` which already contains:
 - publishing tools (pandoc, tex)
 
 ### rocker-ml 
+
+[![](https://images.microbadger.com/badges/version/asachet/rocker-ml.svg)](https://microbadger.com/images/asachet/rocker-ml "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/asachet/rocker-ml.svg)](https://microbadger.com/images/asachet/rocker-ml "Get your own image badge on microbadger.com")
 
 The [rocker-ml image](https://hub.docker.com/r/asachet/rocker-ml) adds to rocker/verse:
   - `ggplot2` utilities such as `scales`, `ggridges`, `GGally`, `RColorBrewer`, `Viridis`
@@ -25,10 +27,14 @@ The [rocker-ml image](https://hub.docker.com/r/asachet/rocker-ml) adds to rocker
 
 ### rocker-stan
 
+[![](https://images.microbadger.com/badges/version/asachet/rocker-stan.svg)](https://microbadger.com/images/asachet/rocker-stan "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/asachet/rocker-stan.svg)](https://microbadger.com/images/asachet/rocker-stan "Get your own image badge on microbadger.com")
+
 The [rocker-stan image](https://hub.docker.com/r/asachet/rocker-stan) adds [Stan](https://mc-stan.org/) to `rocker-ml`:
   - `rstan`, `rstantools`, `rstanarm`, `shinystan`, `bayesplot`, `brms`, `tidybayes`
 
 ### rocker-tidymodels
+
+[![](https://images.microbadger.com/badges/version/asachet/rocker-tidymodels.svg)](https://microbadger.com/images/asachet/rocker-tidymodels "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/asachet/rocker-tidymodels.svg)](https://microbadger.com/images/asachet/rocker-tidymodels "Get your own image badge on microbadger.com")
 
 The [rocker-tidymodels image](https://hub.docker.com/r/asachet/rocker-tidymodels) adds [`tidymodels`](https://github.com/tidymodels/tidymodels) to `rocker-stan`. 
 Note that `rstanarm` is a requirement for `tidyposterior` hence the stack.
