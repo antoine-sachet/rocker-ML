@@ -16,6 +16,7 @@ RUN ["r", "install_stan.R"]
 RUN install2.r -s --error \
 bayesplot \
 brms \
+coda \
 loo \
 projpred \
 rstanarm \
