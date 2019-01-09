@@ -14,20 +14,28 @@ LABEL maintainer="antoine.sachet@gmail.com"
 
 # ggplot2 extensions
 RUN install2.r -s --error \
-scales \
-RColorBrewer \
-viridis \
 GGally \
-ggridges
+ggridges \
+RColorBrewer \
+scales \
+viridis
+
 
 # Misc utilities
 RUN install2.r -s --error \
-Hmisc \
-foreach \
+aws.s3 \
+beepr \
 doParallel \
-openxlsx \
 DT \
-MASS
+foreach \
+formattable \
+here \
+Hmisc \
+jsonlite \
+kableExtra \
+MASS \
+openxlsx \
+RPushbullet
 
 # Caret and some ML packages
 RUN install2.r -s --error \
@@ -48,6 +56,7 @@ gamlss \
 glmnet \
 kernlab \
 lme4 \
+ltm \
 mboost \
 randomForest \ 
 ranger \
