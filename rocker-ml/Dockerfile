@@ -31,11 +31,23 @@ foreach \
 formattable \
 here \
 Hmisc \
+httr \
 jsonlite \
 kableExtra \
 MASS \
 openxlsx \
-RPushbullet
+RPushbullet \
+stringr \
+# Dev tools
+devtools \
+microbenchmark \
+pkgdown \
+rlang \
+roxygen2 \
+styler \
+testthat \
+usethis 
+
 
 # Caret and some ML packages
 RUN install2.r -s --error \
@@ -48,6 +60,7 @@ MLmetrics \
 pROC \
 # Models
 arm \
+C50 \
 e1071 \
 elasticnet \ 
 fitdistrplus \
@@ -60,6 +73,7 @@ ltm \
 mboost \
 randomForest \ 
 ranger \
+rpart \
 survival \
 # graph analysis
 igraph
