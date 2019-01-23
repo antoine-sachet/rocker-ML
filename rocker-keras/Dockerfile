@@ -1,5 +1,6 @@
 FROM asachet/rocker-tidymodels:latest
-LABEL maintainer="antoine.sachet@gmail.com" 
+LABEL maintainer="antoine.sachet@gmail.com" \
+org.label-schema.vcs-url="https://github.com/antoine-sachet/rocker-ML"
 
 RUN install2.r -s --error \
 tensorflow \

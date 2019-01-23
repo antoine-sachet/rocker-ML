@@ -1,5 +1,6 @@
 FROM rocker/verse:latest
-LABEL maintainer="antoine.sachet@gmail.com" 
+LABEL maintainer="antoine.sachet@gmail.com" \
+org.label-schema.vcs-url="https://github.com/antoine-sachet/rocker-ML"
 
 ### Non exhaustive list of packages already installed in rocker/verse:
 # tidyverse: dplyr, lubridate, magrittr, purrr, readr, tibble, rlang, ...
