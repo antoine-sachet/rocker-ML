@@ -26,25 +26,26 @@ viridis
 RUN install2.r -s --error \
 aws.s3 \
 beepr \
+config \
 doParallel \
 DT \
 foreach \
 formattable \
+glue \
 here \
 Hmisc \
 httr \
 jsonlite \
 kableExtra \
+logging \
 MASS \
-openxlsx \
-RPushbullet \
-stringr \
-# Dev tools
-devtools \
 microbenchmark \
+openxlsx \
 pkgdown \
 rlang \
+RPushbullet \
 roxygen2 \
+stringr \
 styler \
 testthat \
 usethis 
