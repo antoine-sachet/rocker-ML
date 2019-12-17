@@ -1,4 +1,4 @@
-FROM asachet/rocker-ml:latest
+FROM asachet/rocker-ml:3.6.1
 LABEL maintainer="antoine.sachet@gmail.com"  \
 org.label-schema.vcs-url="https://github.com/antoine-sachet/rocker-ML"
 

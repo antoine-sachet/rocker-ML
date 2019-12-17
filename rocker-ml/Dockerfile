@@ -1,4 +1,4 @@
-FROM rocker/verse:latest
+FROM rocker/verse:3.6.1
 LABEL maintainer="antoine.sachet@gmail.com" \
 org.label-schema.vcs-url="https://github.com/antoine-sachet/rocker-ML"
 
