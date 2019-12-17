@@ -1,6 +1,4 @@
 FROM asachet/rocker-ml:3.6.1
-LABEL maintainer="antoine.sachet@gmail.com"  \
-org.label-schema.vcs-url="https://github.com/antoine-sachet/rocker-ML"
 
 # Using clang to compile Stan
 # Using the default g++ causes memory issues

@@ -5,12 +5,14 @@ This repository extends the rocker images to provide machine learning / statisti
 
 ### FROM rocker/verse
 
-All these docker images are based on `rocker/verse:latest` [![](https://images.microbadger.com/badges/image/rocker/verse.svg)](https://microbadger.com/images/rocker/verse "Get your own image badge on microbadger.com") which already contains:
+All these docker images are based on `rocker/verse` [![](https://images.microbadger.com/badges/image/rocker/verse.svg)](https://microbadger.com/images/rocker/verse "Get your own image badge on microbadger.com") which already contains:
 - r-base
 - rstudio
 - tidyverse
 - shiny
 - publishing tools (pandoc, tex)
+
+Version-specific branches are based on the relevant `rocker/verse` version (e.g. `asachet/rocker-ml:3.6.1` is based on `rocker/verse:3.6.1` which uses R 3.6.1).
 
 ### rocker-ml 
 
