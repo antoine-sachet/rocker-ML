@@ -1,4 +1,4 @@
-FROM asachet/rocker-tidymodels:3.6.1
+FROM asachet/rocker-tidymodels:3.5.3
 
 RUN install2.r -s --error \
 tensorflow \

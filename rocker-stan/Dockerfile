@@ -1,4 +1,4 @@
-FROM asachet/rocker-ml:3.6.1
+FROM asachet/rocker-ml:3.5.3
 
 # Using clang to compile Stan
 # Using the default g++ causes memory issues
